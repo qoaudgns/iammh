@@ -1,0 +1,101 @@
+@font-face {
+    font-family: notoMedium;
+    src: url('../fonts/NotoSansKR-Medium.otf');
+}
+@font-face {
+    font-family: notoRegular;
+    src: url('../fonts/NotoSansKR-Regular.otf');
+}
+
+body {
+    font-family: notoRegular, serif;
+}
+
+.intro {
+    font-weight: bold;
+}
+
+.title {
+    color: #009900;
+    font-size: 30px;
+    border-top: #d0cfd3 solid 1px;
+    padding-top: 45px;
+}
+
+.sub-title {
+    color: #8a898d;
+    font-size: 20px;
+}
+
+.con-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.exp-time {
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+li {
+    font-size: 15px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000;
+}
+
+.language-tag {
+    border: #00cc00 solid 1px;
+    padding: 0 5px 1px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #a9ed8f;
+    margin-right: 4px;
+}
+
+.language-tag.selected {
+    background-color: #00cc00;
+    padding: 0 5px 1px 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.project-name {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.logo-img {
+    vertical-align: text-bottom;
+}
+
+@media (max-width: 991px){
+    .mobile-border {
+        border-top: #d0cfd3 dashed 1px;
+    }
+}
+
+.project-personnel {
+    font-size: 14px;
+}
+
+.email-link {
+    cursor: pointer;
+}
+
+.url {
+	color: #00cc00;
+	cursor: hand;
+}

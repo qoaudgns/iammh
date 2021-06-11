@@ -1,0 +1,96 @@
+@font-face {
+    font-family: notoMedium;
+    src: url('../assets/fonts/NotoSansCJKkr-Medium.otf');
+}
+@font-face {
+    font-family: notoRegular;
+    src: url('../assets/fonts/NotoSansCJKkr-Regular.otf');
+}
+
+body {
+    font-family: notoRegular, serif;
+}
+
+.intro {
+    font-weight: bold;
+}
+
+.title {
+    color: #4b9cff;
+    font-size: 30px;
+    border-top: #d0cfd3 solid 1px;
+    padding-top: 45px;
+}
+
+.sub-title {
+    color: #8a898d;
+    font-size: 20px;
+}
+
+.con-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.exp-time {
+    line-height: 28px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+li {
+    font-size: 15px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #000;
+}
+
+.language-tag {
+    border: #8ac5ff solid 1px;
+    padding: 0 5px 1px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #8ac5ff;
+    margin-right: 4px;
+}
+
+.language-tag.selected {
+    background-color: #8ac5ff;
+    padding: 0 5px 1px 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.project-name {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.logo-img {
+    vertical-align: text-bottom;
+}
+
+@media (max-width: 991px){
+    .mobile-border {
+        border-top: #d0cfd3 dashed 1px;
+    }
+}
+
+.project-personnel {
+    font-size: 14px;
+}
+
+.email-link {
+    cursor: pointer;
+}
