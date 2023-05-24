@@ -5,9 +5,8 @@ function go(url)
 
 
 function clickEmail(){
-    alert('복사되었습니다.');
     var tempElem = document.createElement('textarea');
-    tempElem.value = 'wjdwlgus96@google.com';
+    tempElem.value = 'xhehfdl777@google.com';
     document.body.appendChild(tempElem);
 
     tempElem.select();
