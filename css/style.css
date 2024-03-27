@@ -16,7 +16,7 @@ body {
 }
 
 .title {
-    color: #009900;
+    color: rgba(140, 213, 5, 0.82);
     font-size: 30px;
     border-top: #d0cfd3 solid 1px;
     padding-top: 45px;
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .language-tag {
-    border: #00cc00 solid 1px;
+    border: rgba(140, 213, 5, 0.82) solid 1px;
     padding: 0 5px 1px 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .language-tag.selected {
-    background-color: #00cc00;
+    background-color: rgba(140, 213, 5, 0.82);
     padding: 0 5px 1px 5px;
     border-radius: 5px;
     color: white;
@@ -96,6 +96,6 @@ a:hover {
 }
 
 .url {
-	color: #00cc00;
+	color: rgba(140, 213, 5, 0.82);
 	cursor: hand;
 }
